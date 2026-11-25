@@ -66,7 +66,7 @@
 
 3D Valley provides free AI‑powered tools that turn a photo or text description into a textured 3D model, generate seamless textures, retexture, remesh, reduce polygon count, and access a library of over 10,000 CC0 models, textures and HDRIs. The tools run in the browser or via an MCP server and REST API, and the generated assets can be downloaded for printing, games or web use. Users retain ownership of the outputs and no attribution is required for the CC0 library assets.
 
-**Areas:** AI Generation · Texture Generation · Asset Library · API · Browser Tools
+**Areas:** AI Generation · Texture Generation · Asset Library · Browser Tools
 
 ## 3D Valley on APIs.io
 
@@ -85,11 +85,17 @@ Everything profiled for 3D Valley is published on APIs.io rather than in this re
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [3dvalley-com-mcp.yml](https://apis.io/servers/3dvalley-com/3dvalley-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [3Dvalley Com Agentic Access](https://apis.io/agentic-access/3dvalley-com/3dvalley-com-agentic-access/)
+- [3D Valley Agentic Access](https://apis.io/agentic-access/3dvalley-com/3dvalley-com-agentic-access/)
 
 #### JSON-LD (1)
 
@@ -107,14 +113,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [3Dvalley Com Authentication](https://apis.io/security/3dvalley-com/3dvalley-com-authentication/)
-- [3Dvalley Com Domain Security](https://apis.io/security/3dvalley-com/3dvalley-com-domain-security/)
+- [3D Valley Authentication](https://apis.io/security/3dvalley-com/3dvalley-com-authentication/)
+- [3D Valley Domain Security](https://apis.io/security/3dvalley-com/3dvalley-com-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [3Dvalley Com Plans Pricing](https://apis.io/plans/3dvalley-com/3dvalley-com-plans-pricing/)
+- [3D Valley Plans Pricing](https://apis.io/plans/3dvalley-com/3dvalley-com-plans-pricing/)
 
 ## Where to find this API
 
@@ -129,23 +135,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 46.1** — developing · rubric 0.27.0 · scored 2026-11-05
+**Kin Score 38.9** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 48.0 |
-| Contract governance | 79.1 |
+| Discoverability | 65.0 |
+| Contract quality | 51.1 |
+| Contract governance | 35.6 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 30.2 |
-| Access clarity | 60.0 |
+| Developer ergonomics | 25.6 |
+| Access clarity | 51.1 |
 
-**Agent readiness 61.8** — agent-native
+**Agent readiness 54.0** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
@@ -154,7 +160,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
@@ -166,8 +172,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
 | MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 24.5** — Education & Research
+**Regulatory alignment 18.6** — Education & Research
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3dvalley-com/](https://apis.io/providers/3dvalley-com/).
 
